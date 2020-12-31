@@ -4,6 +4,7 @@ body {
     font-size: 14px;
     line-height: 1.5em;
     margin: 0 auto;
+    padding: 0 50px;
 }
 
 h1 {
@@ -39,4 +40,10 @@ h4 {
     text-transform: uppercase;
     letter-spacing: 0.2em;
     word-spacing: 1em;
+}
+
+.box-2 {
+    border: 3px dotted #f88787;
+    padding: 20px;
+    margin: 20px 0;
 }
