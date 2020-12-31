@@ -1,12 +1,20 @@
 body {
     background-color: #f4f4f4f4;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+h1 {
+    font-style: italic;
+    color: sienna;
+    font-weight: bold;
 }
 
 h2 {
-    color: red;
+    color: #ff0000;
 }
 
 h4 {
-    color: seagreen;
+    color: #2e8b57;
 }
