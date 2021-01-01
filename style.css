@@ -147,6 +147,10 @@ a:visited {
 }
 
 .p-box {
+    background-image: url(./img/abstract-image.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
     width: 800px;
     height: 500px;
     border: 1px solid green;
