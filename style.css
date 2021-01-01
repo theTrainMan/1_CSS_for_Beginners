@@ -25,6 +25,10 @@ a {
     color: black;
 }
 
+.clr {
+    clear: both;
+}
+
 a:hover {
     color: red;
 }
@@ -123,5 +127,21 @@ a:visited {
     width: 33.3%;
     border: 1px solid red;
     padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+#main-block {
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    background-color: #424242;
+    color: white;
+    padding: 15px;
     box-sizing: border-box;
 }
