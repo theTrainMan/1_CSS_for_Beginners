@@ -117,3 +117,11 @@ a:visited {
     background-color: #297ddf;
     color: #3d3c01;
 }
+
+.block {
+    float: left;
+    width: 33.3%;
+    border: 1px solid red;
+    padding: 10px;
+    box-sizing: border-box;
+}
