@@ -31,4 +31,31 @@ body {
     list-style: none;
 }
 
-#navbar
+#navbar li {
+    display: inline;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#showcase {
+    background-image: url(./img/abstract-image-1.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#showcase h1 {
+    color: #fff;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 30px;
+    text-align: left;
+}
