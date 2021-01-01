@@ -173,3 +173,19 @@ a:visited {
     position: fixed;
     top: 400px
 }
+
+.my-list li:first-child {
+    background: orange;
+}
+
+.my-list li:last-child {
+    background: #00aeff;
+}
+
+.my-list li:nth-child(3) {
+    background: #298338;
+}
+
+.my-list li:nth-child(even) {
+    background: #c5c7c5;
+}
