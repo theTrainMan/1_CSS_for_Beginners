@@ -34,7 +34,7 @@ a:active {
 }
 
 a:visited {
-    color: #000000;
+    color: #ffffff;
 }
 
 .container {
@@ -85,4 +85,35 @@ a:visited {
     padding-bottom: 6px;
     border-bottom: dotted 1px #333;
     list-style-image: url(./img/check.png);
+}
+
+.my-form {
+    border: 1px solid black;
+    padding: 10px 50px;
+}
+
+.my-form .form-group {
+    padding-bottom: 10px;
+}
+
+.my-form label {
+    display: block;
+}
+
+.my-form input[type="text"],
+.my-form textarea {
+    padding: 8px;
+    width: 100%;
+}
+
+.button {
+    background-color: darkblue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.button:hover {
+    background-color: #297ddf;
+    color: #3d3c01;
 }
